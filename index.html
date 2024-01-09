@@ -3,55 +3,250 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Landing Page</title>
+	<title>Nacho</title>
+	<!-- Links To CSS -->
 	<link rel="stylesheet" href="style.css">
+	<!-- Box Icons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-	<header class="header-landing">
-		<div class="wrap-logo">
-			<img src="imagenes/logo/herbel renta de autos.png" alt="" class="logo-header">
+	<!-- Navbar -->
+	<header>
+		<div class="nav container">
+			<!-- Menu Icon -->
+			<i class='bx bx-menu' id="menu-icon"></i>
+			<!-- Logo -->
+			<a href="#" class="logo">Car<span>Point</span></a>
+			<!-- Nav List -->
+			<ul class="navbar">
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#cars">Cars</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+			<!-- Search Icon -->
+			<i class='bx bx-search' id="search-icon"></i>
+			<!-- Search Box -->
+			<div class="search-box container">
+				<input type="search" name="" id="" placeholder="Search here...">
+			</div>
 		</div>
 	</header>
-	<!-- Sección de Hero -->
-	<section class="hero-section" id="inicio">
-		<div class="wrap-hero-section">
-			<h1>Landing Page </h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor impedit doloribus quam inventore
-				assumenda quaerat, repellendus sit expedita, hic neque dolorem dolores odio corporis ducimus voluptate?
-				Vel inventore incidunt assumenda officia voluptatibus nulla nostrum.</p>
-			<div class="wrap-cta">
-				<a href="https://wa.me/tunumerodetelefono" class="cta-a">Llamada a la accion</a>
+	<!-- Home -->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>We Have Everything <br>You <span>Car</span> Need</h1>
+			<p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Maxime, quos!</p>
+			<!-- Home Button-->
+			<a href="#" class="btn">Discover Now</a>
+		</div>
+	</section>
+	<!-- Cars Section -->
+	<section class="cars" id="cars">
+		<div class="heading">
+			<span>All Cars</span>
+			<h2>We Have All Types Cars</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, beatae.</p>
+		</div>
+	</section>
+	<!-- Cars Container -->
+	<div class="cars-container container">
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car1.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car2.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car3.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car4.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car5.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+		<!-- box 1 -->
+		<div class="box">
+			<img src="img/img/car6.jpg" alt="">
+			<h2>Porche Car</h2>
+		</div>
+	</div>
+	<!-- About -->
+	<section class="about container" id="about">
+		<div class="about-img">
+			<img src="img/img/about.png" alt="">
+		</div>
+		<div class="about-text">
+			<span>About Us</span>
+			<h2>Cheap Price Whith <br>Quality Cars</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla ducimus iure numquam soluta enim cumque.
+			</p>
+			<!-- About Button -->
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</section>
+	<!-- Parts Section -->
+	<section class="parts" id="parts">
+		<div class="heading">
+			<span>What We Offer</span>
+			<h2>Our Car Is Always Excelent</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa.</p>
+		</div>
+		<!-- Parts Container -->
+		<div class="parts-container container">
+			<!-- box 1 -->
+			<div class="box">
+				<img src="img/img/part1.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
+			</div>
+			<!-- box 2 -->
+			<div class="box">
+				<img src="img/img/part2.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
+			</div>
+			<!-- box 3 -->
+			<div class="box">
+				<img src="img/img/part3.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
+			</div>
+			<!-- box 4 -->
+			<div class="box">
+				<img src="img/img/part4.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
+			</div>
+			<!-- box 5 -->
+			<div class="box">
+				<img src="img/img/part5.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
+			</div>
+			<!-- box 6 -->
+			<div class="box">
+				<img src="img/img/part6.png" alt="">
+				<h3>Auto Spare parts</h3>
+				<span>$120.99</span>
+				<i class='bx bxs-star'>(6 reviews)
+					<a href="#" class="btn">Buy Now</a>
+					<a href="#" class="details">View Details</a>
+				</i>
 			</div>
 		</div>
 	</section>
-
-	<!-- Sección de Autos -->
-	<section class="section autos-section" id="Autos">
-		<div class="wrap-title-section">
-			<h2>Autos en Venta</h2>
+	<!-- Blog Container -->
+	<section class="blog" id="blog">
+		<div class="heading">
+			<span>Blog & News</span>
+			<h2>Our Blog Content</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, culpa.</p>
 		</div>
-		<div class="wrap-autos-section">
-			<div class="autos-container">
-				<!-- Auto 1 -->
-				<div class="auto">
-					<img src="img/grand vitara/gran vitara frente.jpg" alt="Auto 1 - Imagen 1">
-					<img src="img/grand vitara/gran vitara int.jpg.jpg" alt="Auto 1 - Imagen 2">
-					<img src="img/grand vitara/gran vitara tras.jpg.jpg" alt="Auto 1 - Imagen 3">
-					<div class="auto-info">
-						<h3>Nombre del Auto 1</h3>
-						<p>4 cilindros factura original único dueño , 80 mil kilómetros</p>
-						<p class="price">Precio: $328,000</p>
-					</div>
+		<!-- Blog Container -->
+		<div class="blog-container container">
+			<!-- Box 1 -->
+			<div class="box">
+				<img src="img/img/car1.jpg" alt="">
+				<Span>Ene 9 2024</Span>
+				<h3>How To Get Perfect Car At Low Price</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusamus!</p>
+				<a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+			<!-- Box 2 -->
+			<div class="box">
+				<img src="img/img/car4.jpg" alt="">
+				<Span>Ene 9 2024</Span>
+				<h3>How To Get Perfect Car At Low Price</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusamus!</p>
+				<a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+			<!-- Box 3 -->
+			<div class="box">
+				<img src="img/img/car3.jpg" alt="">
+				<Span>Ene 9 2024</Span>
+				<h3>How To Get Perfect Car At Low Price</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, accusamus!</p>
+				<a href="#" class="blog-btn">Read More<i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<section class="footer">
+		<div class="footer-container container">
+			<div class="footer-box">
+				<a href="#" class="logo">Car<span>point</span></a>
+				<div class="social">
+					<a href="#"><i class='bx bxl-facebook'></i></a>
+					<a href="#"><i class='bx bxl-twitter'></i></a>
+					<a href="#"><i class='bx bxl-instagram'></i></a>
+					<a href="#"><i class='bx bxl-youtube'></i></a>
 				</div>
-
-
-				<!-- Puedes agregar más autos aquí hasta un total de 30 -->
+			</div>
+			<div class="footer-box">
+				<h3>Page</h3>
+				<a href="#">Home</a>
+				<a href="#">Cars</a>
+				<a href="#">Parts</a>
+				<a href="#">Sales</a>
+			</div>
+			<div class="footer-box">
+				<h3>Legal</h3>
+				<a href="#">Privacy</a>
+				<a href="#">Refund Policy</a>
+				<a href="#">Kookie Policy</a>
+			</div>
+			<div class="footer-box">
+				<h3>Contact</h3>
+				<p>Mexico</p>
 
 			</div>
 		</div>
 	</section>
+	<!-- Copyright -->
+	<div class="copyright">
+		<p>&#169; Carpiont All Right Reserved</p>
+	</div>
+
+
+
+
+	<!-- Link To Js -->
+	<script src="main.js"></script>
 </body>
 
 </html>
