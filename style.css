@@ -65,3 +65,57 @@ h3 {
     height: 100%;
     width: 100%;
 }
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+.wrap-title-section {
+    text-align: center;
+}
+
+/* Estilos para la sección de autos */
+.autos-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.autos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.auto {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.auto-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.auto-info {
+    text-align: center;
+}
+
+.auto img {
+    max-width: 30%;
+}
+
+
+/* Agrega estilos adicionales según tus preferencias */
